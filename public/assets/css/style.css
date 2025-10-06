@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: rgb(20, 20, 20);
+  justify-content: center;
+  align-items: center;
+}
+.parent-container {
+  background-color: rgb(44, 44, 44);
+  border: none;
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.1),inset 5px 5px 10px rgba(140, 140, 140, 0.1) ;
+  padding: 10px;
+  position: relative;
+}
+.parent-container img {
+
+  width: 300px;
+  aspect-ratio: 2/2;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.parent-container .username {
+  width: 100%;
+}
+.username > div > img {
+  width: 30px;
+  height: 30px;
+}
+.username .head {
+  display: flex;
+  gap: 5px;
+}
+.username .head > h3 {
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 400px;
+  color: rgb(220, 220, 220);
+}
+p,
+span {
+  color: rgb(173, 173, 173);
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: poppins;
+}
+.Socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Socials .group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px 0px;
+  gap: 20px;
+}
+.Socials .group .grp-ico {
+  height: 20px;
+  width: 20px;
+}
+.content-container {
+  padding: 10px 10px;
+}
+.count {
+  font-size: 18px;
+}
+
+.group > .item1,
+.item2 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+}
+.group .fl-icon {
+  color: black;
+ 
+  width: 20px;
+}
+button {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 26px;
+  font-size: 15px;
+  font-family: poppins;
+}
