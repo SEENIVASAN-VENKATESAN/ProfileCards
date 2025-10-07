@@ -20,8 +20,19 @@ body {
   flex-direction: column;
   box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.1),inset 5px 5px 10px rgba(140, 140, 140, 0.1) ;
   padding: 10px;
-  position: relative;
+  
 }
+.parent-container:hover {
+  box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.2),inset 5px 5px 10px rgba(140, 140, 140, 0.2) ;
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+.parent-container:active {
+  box-shadow: 10px 10px 100px rgba(252, 51, 51, 0.2),inset 5px 5px 10px rgba(244, 32, 32, 0.2) ;
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
 .parent-container img {
 
   width: 300px;
